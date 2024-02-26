@@ -2,8 +2,7 @@ from django.shortcuts import render
 
 def home(request):
     return render(request,'index.html')
-def four(request):
-    return render(request,'404.html')
+
 def about(request):
     return render(request,'about.html')
 def appointment(request):
